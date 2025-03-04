@@ -19,3 +19,4 @@ class Product(Base):
         CheckConstraint("price > 0", name="price_positive"),
         CheckConstraint("stock >= 0", name="stock_non_negative"),
     )
+    
